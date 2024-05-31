@@ -266,8 +266,10 @@ body {
 }
 
 .contents {
-  width: 80%;
+  width: 75%;
   height: 70vh;
+  justify-content: center;
+  align-items: center;
   margin: 0px auto;
 }
 .contents h1 {
@@ -348,13 +350,13 @@ body {
   text-align: center;
   gap: 20px;
 }
-.price .price-list .price-itms .price-itms:hover {
-  background-color: #02897A;
+.price .price-list .price-itms:hover {
+  background-color: #076358;
 }
 .price .price-list .price-itms .price-button button {
   width: 139px;
   height: 44px;
-  background-color: #02897A;
+  background-color: rgba(2, 137, 121, 0.6588235294);
   color: white;
   border: none;
   cursor: pointer;

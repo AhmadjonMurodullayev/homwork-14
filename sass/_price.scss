@@ -30,14 +30,14 @@
             background-color: #FFFf;    
             text-align: center;
             gap: 20px;
-            .price-itms:hover{
-                background-color: #02897A;
+            &:hover{
+                background-color: #076358;
             }
             .price-button{
                 button{
                     width: 139px;
                     height: 44px;
-                    background-color: #02897A;
+                    background-color: #028979a8;
                     color: white;
                     border: none;
                     cursor: pointer;
