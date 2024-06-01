@@ -6,7 +6,7 @@
     h1 {
         width: 302px;
         height: 57px;
-        color: #fff;
+        color: inherit;
         font-size: 34px;
         margin: 0px auto;
     }
@@ -15,7 +15,7 @@
         width: 537px;
         height: 56px;
         font-size: 16px;
-        color: #fff;
+        color:inherit;
         text-align: center;
         margin: 0px auto;
     }
@@ -32,7 +32,7 @@
     .clinents-itms-list {
         width: 327px;
         height: 236px;
-        background-color: #fff;
+        background-color:inherit;
         border-radius: 5px;
 
         .clinents__icon {
@@ -51,6 +51,7 @@
             height: 84px;
             margin: 10px 20px;
             font-size: 16px;
+            color: inherit;
         }
 
         .say-bottom {

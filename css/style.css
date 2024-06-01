@@ -2,9 +2,9 @@
 header {
   width: 100%;
   height: 70px;
-  background-color: #1F2E35;
+  background-color: inherit;
   display: flex;
-  position: fixed;
+  position: sticky;
   top: 0;
 }
 header .navbar {
@@ -18,7 +18,7 @@ header .navbar .nav-logo {
   gap: 10px;
 }
 header .navbar .nav-logo h2 {
-  color: white;
+  color: inherit;
 }
 header .navbar .nav-link .header-list :hover {
   color: gold;
@@ -47,10 +47,14 @@ header .nav-link .header-list button {
 header .nav-link .header-list #nav-button {
   width: 95px;
   height: 38px;
-  border: 1px solid;
+  border: 1px solid black;
   background: transparent;
   border-radius: 5px;
-  color: white;
+  color: inherit;
+}
+
+.header__shrink {
+  box-shadow: 0px 0px 10px 0px black;
 }
 
 * {
@@ -68,7 +72,7 @@ header .nav-link .header-list #nav-button {
 }
 
 a {
-  color: white;
+  color: inherit;
 }
 
 .reset-button {
@@ -103,19 +107,29 @@ a {
   width: 390px;
   height: 120px;
   font-size: 40px;
-  color: white;
+  color: inherit;
   margin: 100px 0px 20px 0px;
 }
 .reset .reset-text p {
   width: 440px;
   height: 95px;
   font-size: 18px;
-  color: white;
+  color: inherit;
 }
 .reset .reset-text button {
   width: 175px;
   height: 50px;
   font-size: 16px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.dark {
+  background-color: white;
+  color: black;
 }
 
 body {
@@ -136,7 +150,7 @@ body {
   height: 96px;
   font-size: 30px;
   text-align: center;
-  color: white;
+  color: inherit;
 }
 .pages .pages-text {
   width: 85%;
@@ -152,7 +166,7 @@ body {
 .pages .pages-text .pages-text-box h2 {
   width: 200px;
   height: 33px;
-  color: #FFFFFF;
+  color: inherit;
   font-size: 22px;
   margin: 20px 0px 10px;
 }
@@ -160,7 +174,7 @@ body {
   width: 240px;
   height: 52px;
   font-size: 16px;
-  color: #FFFFFF;
+  color: inherit;
 }
 .pages button {
   width: 167px;
@@ -189,17 +203,17 @@ body {
   height: 50vh;
 }
 .menigermet .menigermet-text p {
-  color: white;
+  color: inherit;
   font-size: 16px;
   padding: 10px 0px;
 }
 .menigermet .menigermet-text h2 {
-  color: white;
+  color: inherit;
   font-size: 20px;
   padding: 15px 0px;
 }
 .menigermet .menigermet-text h5 {
-  color: white;
+  color: inherit;
   font-size: 18px;
 }
 .menigermet .menigermet-text span {
@@ -263,6 +277,7 @@ body {
 }
 .quick .quick-box .quick-box-blog .quick-pages .quick-pages-sms h4 {
   padding: 18px 10px;
+  color: black;
 }
 
 .contents {
@@ -304,6 +319,7 @@ body {
   height: 70px;
   font-size: 24px;
   padding: 10px 0px 0px 20px;
+  color: black;
 }
 .contents .contents-box-itms img {
   border-radius: 10px;
@@ -326,13 +342,13 @@ body {
   height: 51px;
   font-size: 34px;
   margin: 0px auto;
-  color: white;
+  color: inherit;
 }
 .price p {
   width: 213px;
   height: 24px;
   font-size: 16px;
-  color: white;
+  color: inherit;
   margin: 0px auto;
 }
 .price .price-list {
@@ -349,6 +365,7 @@ body {
   background-color: white;
   text-align: center;
   gap: 20px;
+  border: 1px solid black;
 }
 .price .price-list .price-itms:hover {
   background-color: #076358;
@@ -397,10 +414,12 @@ body {
   height: 30px;
   color: #02897A;
 }
-.price .price-list .price-itms .price-number .number-text h3 h4 {
+.price .price-list .price-itms .price-number .number-text h3 .number-text-h4 {
   width: 290px;
   height: 20px;
   margin: 10px 0px;
+  color: black;
+  background-color: #076358;
 }
 
 .clients {
@@ -411,7 +430,7 @@ body {
 .clients h1 {
   width: 302px;
   height: 57px;
-  color: #fff;
+  color: inherit;
   font-size: 34px;
   margin: 0px auto;
 }
@@ -419,7 +438,7 @@ body {
   width: 537px;
   height: 56px;
   font-size: 16px;
-  color: #fff;
+  color: inherit;
   text-align: center;
   margin: 0px auto;
 }
@@ -433,7 +452,7 @@ body {
 .clients .clinents-itms-list {
   width: 327px;
   height: 236px;
-  background-color: #fff;
+  background-color: inherit;
   border-radius: 5px;
 }
 .clients .clinents-itms-list .clinents__icon {
@@ -449,6 +468,7 @@ body {
   height: 84px;
   margin: 10px 20px;
   font-size: 16px;
+  color: inherit;
 }
 .clients .clinents-itms-list .say-bottom {
   display: flex;
@@ -511,11 +531,11 @@ footer .link2 {
 }
 footer h3 {
   font-size: 20px;
-  color: white;
+  color: inherit;
 }
 footer h5 {
   font-size: 16px;
-  color: white;
+  color: inherit;
   padding: 10px 0px;
 }
 footer .link4 {
@@ -523,7 +543,7 @@ footer .link4 {
   height: 199px;
 }
 footer .link4 h2 {
-  color: white;
+  color: inherit;
 }
 footer .link4 input {
   width: 100%;
@@ -541,4 +561,242 @@ footer .link4 button {
   cursor: pointer;
   color: white;
   background-color: #02897A;
+}
+
+.pricing {
+  width: 80%;
+  height: 90vh;
+  margin: 90px auto;
+}
+.pricing .pricing-h1 {
+  color: inherit;
+  text-align: center;
+  font-size: 28px;
+}
+.pricing .pricing-h2 {
+  color: inherit;
+  text-align: center;
+  padding: 10px;
+}
+.pricing .pricing-p {
+  color: inherit;
+  text-align: center;
+}
+.pricing .price-list {
+  width: 100%;
+  height: 470px;
+  margin: 80px 0px 0px 0px;
+  display: flex;
+  gap: 110px;
+}
+.pricing .price-list .price-itms {
+  width: 323px;
+  height: 456px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  gap: 20px;
+  border: 1px solid;
+}
+.pricing .price-list .price-itms:hover {
+  background-color: #076358;
+}
+.pricing .price-list .price-itms .price-button button {
+  width: 139px;
+  height: 44px;
+  background-color: rgba(2, 137, 121, 0.6588235294);
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.pricing .price-list .price-itms h1 {
+  color: black;
+}
+.pricing .price-list .price-itms p {
+  color: black;
+  width: 250px;
+  height: 40px;
+  margin: 0px auto;
+}
+.pricing .price-list .price-itms .price-number {
+  width: 170px;
+  height: 12vh;
+  display: flex;
+  margin: 30px auto;
+}
+.pricing .price-list .price-itms .price-number .number {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.pricing .price-list .price-itms .price-number .number h4 {
+  font-size: 80px;
+  color: #02897A;
+}
+.pricing .price-list .price-itms .price-number .number-text {
+  width: 290px;
+  height: 100%;
+}
+.pricing .price-list .price-itms .price-number .number-text h3 {
+  margin: 5px 0px;
+  font-size: 28px;
+  width: 30px;
+  height: 30px;
+  color: #02897A;
+}
+.pricing .price-list .price-itms .price-number .number-text h3 h4 {
+  width: 290px;
+  height: 20px;
+  margin: 10px 0px;
+}
+
+.enterprise {
+  width: 100%;
+  height: 40vh;
+  background-color: inherit;
+}
+.enterprise .enterprise-h1 {
+  color: inherit;
+  font-size: 25px;
+  text-align: center;
+  padding: 60px 0px 20px 0px;
+}
+.enterprise .enterprise-h2 {
+  color: inherit;
+  font-size: 25px;
+  text-align: center;
+}
+.enterprise .enterprise-p {
+  color: inherit;
+  text-align: center;
+  padding: 5px 0px 20px;
+}
+.enterprise .enterprise-button {
+  width: 224px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  margin: 0px auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #02897A;
+  color: white;
+}
+
+.prodact-pricing {
+  width: 85%;
+  height: 100%;
+  margin: 60px auto;
+  gap: 20px;
+}
+.prodact-pricing .prodact-pricing-logo {
+  color: inherit;
+  text-align: center;
+}
+.prodact-pricing .prodact-pricing-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.prodact-pricing .prodact-pricing-img {
+  width: 50%;
+  height: 100%;
+}
+.prodact-pricing .prodact-pricing-img-text {
+  width: 50%;
+  height: 100%;
+}
+.prodact-pricing .prodact-pricing-img-text span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0px;
+}
+.prodact-pricing .prodact-pricing-img-text span h3 {
+  color: inherit;
+}
+.prodact-pricing .prodact-pricing-img-text p {
+  color: inherit;
+  padding: 0px 20px;
+  margin: 0px -10px;
+}
+
+.frequently {
+  width: 85%;
+  height: 100%;
+  margin: 60px auto;
+}
+.frequently .frequently-logo-h1 {
+  color: inherit;
+  font-size: 30px;
+  text-align: center;
+}
+.frequently .frequently-logo-p {
+  color: inherit;
+  text-align: center;
+  font-size: 20px;
+}
+.frequently .frequently-box {
+  width: 100%;
+}
+.frequently .frequently-box-itms1 {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  border-bottom: 1px solid;
+  align-items: center;
+  margin: 0px auto;
+  margin: 20px 0px 0px 0px;
+  gap: 20px;
+}
+.frequently .frequently-box-itms1 .frequently-box-itms1-h4-1 {
+  color: inherit;
+}
+.frequently .frequently-box-itms1 .frequently-box-itms1-h4-2 {
+  color: #22343D;
+}
+.frequently .frequently-box-itms1 .frequently-dum {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #02897A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frequently .frequently-box-itms2 {
+  width: 100%;
+  height: 15vh;
+  border-bottom: 1px solid;
+  align-items: center;
+  margin: 0px auto;
+  margin: 20px 0px 0px 0px;
+}
+.frequently .frequently-box-itms2 .frequently-box-itms1-h4-1 {
+  color: inherit;
+}
+.frequently .frequently-box-itms2 p {
+  width: 80%;
+  height: 72px;
+  margin: 10px 0px;
+  color: inherit;
+}
+.frequently .frequently-box-itms2 .frequently-blog {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.frequently .frequently-box-itms2 .frequently-dum {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #02897A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

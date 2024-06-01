@@ -19,18 +19,18 @@
     }
     h3{
         font-size: 20px;
-        color: white;
+        color: inherit;
     }
     h5{
         font-size: 16px;
-        color: white;
+        color: inherit;
         padding: 10px 0px;
     }
     .link4{
         width: 320px;
         height: 199px;
         h2{
-            color: white;
+            color: inherit;
         }
         input{
             width: 100%;
@@ -38,6 +38,7 @@
             border-radius: 5px;
             margin: 15px 0px 15px 0px;
             border: none;
+            
         }
         button{
             width: 110px;

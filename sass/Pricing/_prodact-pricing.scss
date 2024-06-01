@@ -1,0 +1,40 @@
+.prodact-pricing{
+    width: 85%;
+    height: 100%;
+    margin: 60px auto;
+    gap: 20px;
+    .prodact-pricing-logo{
+        color: inherit;
+        text-align: center;
+    }
+    .prodact-pricing-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .prodact-pricing-img{
+        width: 50%;
+        height: 100%;
+        // border: 2px solid;
+    }
+    .prodact-pricing-img-text{
+        width: 50%;
+        height: 100%;
+        // border: 2px solid;
+        span{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 0px;
+            h3{
+                color: inherit;
+            }
+        }
+        p{
+            color: inherit;
+            padding: 0px 20px;
+            margin: 0px -10px;
+            
+        }
+    }
+}

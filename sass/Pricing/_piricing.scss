@@ -1,37 +1,37 @@
-.price{
+.pricing{
     width: 80%;
-    height: 100vh;
+    height: 90vh;
     margin: 90px auto;
-    h1{
-        width: 192px;
-        height: 51px;
-        font-size: 34px;
-        margin: 0px auto;
+    .pricing-h1{
         color: inherit;
-        // border: 2px solid;   
+        text-align: center;
+        font-size: 28px;
+
     }
-    p{
-        width: 213px;
-        height: 24px;
-        font-size: 16px;
+    .pricing-h2{
         color: inherit;
-        margin: 0px auto;
-     
+        text-align: center;
+        padding: 10px ;
     }
+    .pricing-p{
+        color: inherit;
+        text-align: center;
+    }
+
     .price-list{
         width: 100%;
         height: 470px;
-        margin: 130px 0px 0px 0px;
+        margin: 80px 0px 0px 0px;
         display: flex;
         gap: 110px;
         .price-itms{
             width: 323px;
             height: 456px;
             border-radius: 10px;
-            background-color: #FFFf;   
+            background-color: #FFFf;    
             text-align: center;
             gap: 20px;
-            border: 1px solid black;
+            border: 1px solid;
             &:hover{
                 background-color: #076358;
             }
@@ -40,7 +40,7 @@
                     width: 139px;
                     height: 44px;
                     background-color: #028979a8;
-                    color: white;
+                    color: inherit;
                     border: none;
                     cursor: pointer;
                     border-radius: 10px;
@@ -53,6 +53,7 @@
                 color: black;
                 width: 250px;
                 height: 40px;
+                margin: 0px auto;
             }
             .price-number{
                 width: 170px;
@@ -84,13 +85,10 @@
                        width: 30px ;
                        height: 30px;
                        color: #02897A;
-                       .number-text-h4{
+                       h4{
                         width: 290px;
                          height:20px ;
                          margin: 10px 0px;
-                         color: black ;
-                         background-color: #076358;
-                        
                        
 
                        }
