@@ -162,6 +162,7 @@ body {
 .pages .pages-text .pages-text-box {
   width: 260px;
   height: 95%;
+  margin: 0px auto;
 }
 .pages .pages-text .pages-text-box h2 {
   width: 200px;
