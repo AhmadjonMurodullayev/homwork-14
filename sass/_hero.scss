@@ -37,4 +37,14 @@ h3{
    border-bottom: 2px solid #02897A;
 }
 }
+@media (max-width:450px){
+     .container{
+        padding: 0px 50px;
+     }
+}
+@media (max-width:250px){
+     .container{
+        padding: 0px 10px;
+     }
+}
 

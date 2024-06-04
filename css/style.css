@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 header {
+  width: 100%;
   height: 70px;
   background-color: inherit;
   display: flex;
@@ -131,6 +132,16 @@ a {
   border-bottom: 2px solid #02897A;
 }
 
+@media (max-width: 450px) {
+  .container {
+    padding: 0px 50px;
+  }
+}
+@media (max-width: 250px) {
+  .container {
+    padding: 0px 10px;
+  }
+}
 .reset {
   width: 85%;
   height: 80vh;
@@ -933,6 +944,9 @@ footer .link4 button {
 .work .work-title {
   font-size: 34px;
 }
+.work .work-cards {
+  width: 100%;
+}
 .work .work-card {
   display: flex;
   gap: 20px;
@@ -940,14 +954,16 @@ footer .link4 button {
 .work .work-card .work-img {
   flex: 1;
 }
+.work .work-card .work-img img {
+  width: 100%;
+}
 .work .work-img-text {
   flex: 1;
   align-items: center;
   text-align: start;
 }
 .work .work-img-text .work-desc {
-  width: 445px;
-  height: 84px;
+  gap: 20px;
 }
 .work .work-img-text .work-text {
   padding: 20px 0px;
@@ -961,8 +977,23 @@ footer .link4 button {
   color: inherit;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 992px) {
+  .work .work-cards {
+    display: flex;
+    flex-direction: column;
+  }
   .work .work-cards .work-card {
     flex-direction: column;
+  }
+  .work .work-cards .work-card .work-img {
+    order: 1;
+    width: 100%;
+  }
+  .work .work-cards .work-card .work-img-text {
+    order: 2;
+    width: 100%;
+  }
+  .work .work-cards .work-card .work-img-text .work-text {
+    padding: 10px 0px;
   }
 }
