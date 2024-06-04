@@ -1,0 +1,32 @@
+.join{
+        background-color: #22343D ;
+        align-items: center;
+    //   justify-content: center;
+      text-align: center;
+        flex-wrap: wrap;
+        // display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 60px 0px;
+        height:   100%;
+        .join-title{
+            font-size: 34px;
+            padding: 20px 0px;
+        }
+} .join-card{
+      margin: 0px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      gap: 120px;
+
+
+}
+@media (max-width:600px) {
+    .join{
+      .join-card{
+        flex-direction: column;
+      }
+    }
+}

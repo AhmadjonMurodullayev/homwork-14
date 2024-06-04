@@ -1,0 +1,66 @@
+.contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+    .contact-logo {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .contact-title {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 20px 0px;
+    }
+
+    .contact-link-img {
+        margin: 20px auto 50px;
+    }
+
+    .contact-ifram {
+        width: 70%;
+
+        img {
+            width: 100%;
+        }
+    }
+    .contact-input{
+        border: 2px solid grey;
+        width: 80%;
+        height: 65vh;
+        margin: 30px auto;
+        background-color: 
+        #22343D;
+        border-radius: 10px;    
+        p{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .contact-input1{
+            width: 85%;
+            padding: 13px 20px;
+            margin: 15px 0px;
+            border-radius: 25px;
+            border: none;
+            
+        }
+        textarea{
+            width: 85%;
+            padding: 60px 20px;
+        }
+        .contact-button{
+            padding: 13px 45px;
+            border: none;
+            border-radius: 20px;
+            background-color: 
+            #02897A;
+            margin: 10px 0px;
+            color: inherit;
+            cursor: pointer;
+        }
+        
+    }
+}

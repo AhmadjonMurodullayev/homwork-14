@@ -602,6 +602,7 @@ footer .link4 input {
   border-radius: 5px;
   margin: 15px 0px 15px 0px;
   border: none;
+  border: 1px solid;
 }
 footer .link4 button {
   width: 110px;
@@ -614,6 +615,13 @@ footer .link4 button {
   background-color: #02897A;
 }
 
+@media (max-width: 994px) {
+  footer {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
 .pricing {
   width: 80%;
   height: 90vh;
@@ -996,4 +1004,255 @@ footer .link4 button {
   .work .work-cards .work-card .work-img-text .work-text {
     padding: 10px 0px;
   }
+}
+.join {
+  background-color: #22343D;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 50px;
+  margin: 60px 0px;
+  height: 100%;
+}
+.join .join-title {
+  font-size: 34px;
+  padding: 20px 0px;
+}
+
+.join-card {
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+@media (max-width: 600px) {
+  .join .join-card {
+    flex-direction: column;
+  }
+}
+.garand {
+  display: flex;
+  gap: 35px;
+  margin: 40px 0px;
+}
+.garand .garand-text {
+  width: 50%;
+}
+.garand .garand-text .garand-title {
+  font-size: 45px;
+  font-weight: 500px;
+}
+.garand .garand-text .dick {
+  font-size: 20px;
+  font-weight: 400px;
+}
+.garand .garand-dumoloq {
+  width: 80%;
+  height: 17%;
+  border: 2px solid white;
+  border-radius: 40px;
+  margin: 20px 0px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.garand .garand-dumoloq .garand-dumoloq-button {
+  width: 30%;
+  padding: 3px 10px;
+  border-radius: 40px;
+  cursor: pointer;
+  background-color: #02897A;
+  border: none;
+  color: inherit;
+}
+.garand .garand-dumoloq .garand-input {
+  width: 60%;
+  padding: 10px 10px;
+  background: transparent;
+  border: none;
+  color: inherit;
+}
+.garand .grand-coment {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.garand .garand-img {
+  width: 50%;
+}
+.garand .garand-img img {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .garand {
+    flex-direction: column;
+    align-items: center;
+  }
+  .garand .garand-text {
+    order: 1;
+    width: 100%;
+  }
+  .garand .garand-text .garand-title {
+    font-size: 35px;
+    font-weight: 700px;
+  }
+  .garand .garand-text .dick {
+    font-size: 15px;
+    font-weight: 300px;
+  }
+  .garand .garand-img {
+    order: 2;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .garand {
+    align-items: center;
+  }
+  .garand .garand-text {
+    order: 1;
+  }
+  .garand .garand-text .garand-dumoloq {
+    width: 100%;
+    height: 15%;
+  }
+  .garand .garand-text .garand-dumoloq .garand-dumoloq-button {
+    width: 30%;
+    padding: 3px 5px;
+    font-size: 10px;
+  }
+  .garand .garand-text .garand-title {
+    font-size: 25px;
+    font-weight: 400px;
+  }
+  .garand .garand-text .dick {
+    font-size: 15px;
+    font-weight: 300px;
+  }
+  .garand .garand-text .garand-input {
+    width: 40%;
+  }
+  .garand .garand-text .grand-coment {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+  }
+  .garand .garand-text .grand-coment h5 {
+    font-size: 10px;
+  }
+  .garand .garand-text .garand-dumoloq-button {
+    width: 20%;
+  }
+  .garand .garand-img {
+    order: 2;
+    width: 100%;
+  }
+}
+.lates {
+  margin: 100px 0px;
+  text-align: center;
+}
+.lates .lates-logo {
+  font-size: 34px;
+  font-weight: 700px;
+}
+.lates .lates-title {
+  font-size: 16px;
+  font-weight: 500px;
+}
+.lates .lates-section {
+  margin: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 29px;
+}
+.lates .lates-section .lates-box {
+  width: 400px;
+  height: 50vh;
+  background-color: white;
+  text-align: start;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0px auto;
+}
+.lates .lates-section .lates-box img {
+  width: 100%;
+}
+.lates .lates-section .lates-box .later-deck {
+  color: black;
+  padding: 10px 10px;
+}
+.lates .lates-section .lates-box .later-deck2 {
+  color: black;
+  font-size: 24px;
+  font-weight: 400px;
+  padding: 0px 10px;
+}
+
+@media (max-width: 500px) {
+  .later-deck2 {
+    font-size: 10px;
+    font-weight: 400px;
+    padding: 0px 10px;
+  }
+}
+.contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact .contact-logo {
+  font-size: 34px;
+  font-weight: 700;
+}
+.contact .contact-title {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px 0px;
+}
+.contact .contact-link-img {
+  margin: 20px auto 50px;
+}
+.contact .contact-ifram {
+  width: 70%;
+}
+.contact .contact-ifram img {
+  width: 100%;
+}
+.contact .contact-input {
+  border: 2px solid grey;
+  width: 80%;
+  height: 65vh;
+  margin: 30px auto;
+  background-color: #22343D;
+  border-radius: 10px;
+}
+.contact .contact-input p {
+  font-size: 24px;
+  font-weight: 700;
+}
+.contact .contact-input .contact-input1 {
+  width: 85%;
+  padding: 13px 20px;
+  margin: 15px 0px;
+  border-radius: 25px;
+  border: none;
+}
+.contact .contact-input textarea {
+  width: 85%;
+  padding: 60px 20px;
+}
+.contact .contact-input .contact-button {
+  padding: 13px 45px;
+  border: none;
+  border-radius: 20px;
+  background-color: #02897A;
+  margin: 10px 0px;
+  color: inherit;
+  cursor: pointer;
 }

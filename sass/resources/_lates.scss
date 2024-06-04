@@ -1,0 +1,49 @@
+.lates{
+    margin:100px 0px;
+    text-align: center;
+    .lates-logo{
+        font-size: 34px ;
+        font-weight: 700px;
+    }
+    .lates-title{
+            font-size: 16px;
+            font-weight: 500px;
+    }
+    .lates-section{
+        margin: 20px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        // flex-direction: column;
+        gap: 29px;
+        .lates-box{
+            width: 400px;
+            height: 50vh;
+            background-color: white;
+            text-align: start;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 0px auto;
+            img{
+                width: 100%;
+            }
+            .later-deck{
+                color: black;
+                padding: 10px 10px  ;
+            }
+            .later-deck2{
+                color: black;
+                font-size: 24px;
+                font-weight: 400px;
+                padding: 0px 10px;
+            }
+
+        }
+    }
+}
+@media(max-width:500px){
+    .later-deck2{
+        font-size: 10px;
+        font-weight: 400px;
+        padding: 0px 10px;
+    }
+}
