@@ -9,8 +9,9 @@
     font-family: "Poppins", sans-serif;
 }
 .container{
-    width: 85%;
+    padding: 0px 100px;
     margin: 0 auto;
+//    border: 2px solid;
 }
 a{
     color: inherit;
@@ -30,8 +31,10 @@ button{
     cursor: pointer;
 
 }
+
 h3{
    color: #02897A;
    border-bottom: 2px solid #02897A;
 }
 }
+

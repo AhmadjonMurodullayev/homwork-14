@@ -1,0 +1,52 @@
+.work{
+    align-items: center;
+     justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .work-title{
+        font-size: 34px;
+    }
+    .work-card{
+        display: flex;
+          gap: 20px;
+        .work-img{
+            flex: 1;
+
+        }
+    }
+    .work-img-text{
+        flex: 1;
+        align-items: center;
+        text-align: start;
+        .work-desc{
+            width: 445px;
+            height: 84px;
+        }
+        .work-text{
+            padding: 20px 0px;
+        }
+    }
+    .work-button{
+        button{
+            padding: 10px 18px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            background-color: 
+            #02897A;
+            color: inherit;
+        }
+    }
+}
+@media (max-width:1100px){
+    .work{
+        .work-cards{
+            .work-card{
+                flex-direction: column;
+            }
+        }
+    }
+}
